@@ -18,3 +18,18 @@ Aggregates and correlates IOCs (Indicators of Compromise) with MITRE ATT&CK tact
 - C++17
 - Elasticsearch
 - Python 3.10+
+🔧 Build Instructions
+1. Install Dependencies
+
+sudo apt-get install libcurl4-openssl-dev graphviz
+2. Clone the Repo & Build
+
+git clone https://github.com/rahulrn9/Threat-Intelligence-Correlation-Engine.git
+cd Threat-Intelligence-Correlation-Engine
+make
+3. Run the Engine
+
+./threatcorrelator data/misp_feed.json
+4. Push to Elasticsearch (Optional)
+
+python3 scripts/push_to_elastic.py
