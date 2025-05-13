@@ -1,0 +1,12 @@
+{
+  "indicators": [
+    {
+      "indicator_value": "192.168.1.100",
+      "mitre_tactic": "TA0005 - Defense Evasion"
+    },
+    {
+      "indicator_value": "malware.exe",
+      "mitre_tactic": "TA0002 - Execution"
+    }
+  ]
+}
